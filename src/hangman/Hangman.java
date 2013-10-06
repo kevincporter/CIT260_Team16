@@ -4,16 +4,49 @@
  */
 package hangman;
 
+import java.util.Scanner;
+
 /**
  *
- * @author BlancoFamily
+ * @author user
  */
 public class Hangman {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+  //Variables 
+    
+    
+    
+  //Instant Variable
+  String name;
+  String instructions = "This is a game of Hangman \n\n"
+                        +"The object of the game is to guess a word without \n"
+                        +"getting the man hung. You have a limited amount of\n"
+                        +"guesses, so be wise in picking a lettor or word.\n\n"
+                        +"Good Luck!";
+          
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) {
+    Hangman myGame = new Hangman();
+    myGame.getName();
+    myGame.displayHelp();
+    Gallow gallow = new Gallow ();
+    Gallow.displayGallow();
+    gallow.displayWrongLetterBox();
+    
+    
+    // TODO code application logic here
+  }
+  
+  public void getName() {
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter your name: ");
+    this.name = input.next();
+  }
+  
+  public void displayHelp(){
+    System.out.println("\nWelcome " + this.name + "\n");
+    System.out.println(this.instructions);
+  }
 }
