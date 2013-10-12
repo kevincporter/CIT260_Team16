@@ -30,4 +30,8 @@ public class Gallow {
         return null;
     }
     
+    public void displayWrongLetterBox(){
+        System.out.println("ToDo: Display wrong letter box");
+    }    
+    
 }
