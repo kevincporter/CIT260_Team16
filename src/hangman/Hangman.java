@@ -32,7 +32,7 @@ public class Hangman {
     myGame.getName();
     myGame.displayHelp();
     Gallow gallow = new Gallow ();
-    Gallow.displayGallow();
+    gallow.displayGallow();
     gallow.displayWrongLetterBox();
     
     
