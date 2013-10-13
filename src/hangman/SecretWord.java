@@ -42,7 +42,7 @@ public char getLetter() {
 }
     
 public String getWord() {
-    String hangmanWord = "Kevin"; // we will need to modify this so it uploads a random word from a file
+    String hangmanWord = "Kevin"; // User will assign the word with keyboard, for now it is just assigned
     return hangmanWord;
 }    
 
