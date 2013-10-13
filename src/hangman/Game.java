@@ -8,14 +8,14 @@ public class Game {
     public Game() {
     }
 
-    public void displayWinningMessage () {
+    public void MessagetoWinner () {
         System.out.println(
              "\n\t*******************************************************************************"
              + "\n\t Congratulations. You win!"
              + "\n\t*******************************************************************************");
     }
 
-    public void displayLosingMessage () {
+    public void MessagetoLooser () {
         System.out.println(
              "\n\t*******************************************************************************"
              + "\n\t Sorry. You lose. Better luck next time!" 
@@ -38,19 +38,19 @@ public class Game {
                 System.out.println("We will eventually build a real menu."); //this will be replaced with call to the menu class
             }
             else {
-            //    AlphabetArray.displayAlphabetArray(SecretLetter);
+               // AlphabetArray.AlphabetArray(SecretLetter);
                 SecretWord.displaySecretWord(SecretLetter);
                 SecretWord.guessesLeft();
             }
-  //          }
+            }
         
-  //      if (SecretWord.winGame()){
-  //          MessagetoWinner();
-  //      }
-  //      else {
-  //          MessagetoLooser();
-  //      }
+        if (SecretWord.winGame()){
+            MessagetoWinner();
+        }
+        else {
+            MessagetoLooser();
+        }
         
    }
    }
-   }
+   

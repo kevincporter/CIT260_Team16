@@ -20,7 +20,7 @@ public void makeAlphabet (){
     alphabetArray= "abcdefghijklmnopqrstuvwxyz".toCharArray(); //type conversion
 }
     
-public void displayAlphabet (char letter) {
+public void AlphabetArrayDisp (char letter) {
     
     System.out.println("Remaining Letters:");
     
