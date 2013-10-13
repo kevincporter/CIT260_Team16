@@ -35,7 +35,8 @@ public class Hangman {
     gallow.displayGallow();
     gallow.displayWrongLetterBox();
     
-    
+   Game game = new Game();
+        game.PlayGame(); 
     // TODO code application logic here
   }
   
@@ -48,5 +49,7 @@ public class Hangman {
   public void displayHelp(){
     System.out.println("\nWelcome " + this.name + "\n");
     System.out.println(this.instructions);
+    
+      
   }
-}
+  }

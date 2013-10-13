@@ -23,6 +23,23 @@ public class Gallow {
           +"|\n"  
           +"|\n"
      +"-----------\n";
+    
+   //This will be what is displayed if user has 1 error
+    
+  //   String gallow&Head = 
+  //         "____________\n"
+  //        +"|           |\n"
+  //         +"|           |\n"
+  //        +"|         |---|\n"
+  //        +"|        | ^ ^ |\n"
+  //        +"|         |___| \n"
+  //        +"|\n"
+  //        +"|\n"
+  //        +"|\n"
+  //        +"|\n"
+  //        +"|\n"  
+  //        +"|\n"
+  //   +"-----------\n";
 
     
     public String displayGallow(){
