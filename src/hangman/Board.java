@@ -7,7 +7,7 @@ package hangman;
 
 /**
  *
- * @author BlancoFamily
+ * @author testBlancoFamily
  */
 public class Board {
     int rowCount = 5;
