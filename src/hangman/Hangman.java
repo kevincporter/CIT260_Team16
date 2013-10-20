@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Hangman {
 
   //Variables 
-    
+    private static final Scanner inFile = new Scanner(System.in);
     
     
   //Instant Variable
@@ -23,7 +23,9 @@ public class Hangman {
                         +"getting the man hung. You have a limited amount of\n"
                         +"guesses, so be wise in picking a lettor or word.\n\n"
                         +"Good Luck!";
-          
+  
+  
+  
   /**
    * @param args the command line arguments
    */
@@ -48,8 +50,9 @@ public class Hangman {
   
   public void displayHelp(){
     System.out.println("\nWelcome " + this.name + "\n");
-    System.out.println(this.instructions);
-    
-      
+    System.out.println(this.instructions);    
   }
+  
+  
+  
   }
