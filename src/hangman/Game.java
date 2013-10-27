@@ -35,7 +35,7 @@ public class Game {
             SecretLetter = SecretWord.getLetter(); //Guessing
             
             if (SecretLetter == '1') {
-                System.out.println("We will eventually build a real menu."); //this will be replaced with call to the menu class
+     //           System.out.println(this.MenuDisplay); How can I connect this to my string in MainMenuView? Or how would it be best?
             }
             else {
                // AlphabetArray.AlphabetArray(SecretLetter);

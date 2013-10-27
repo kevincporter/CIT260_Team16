@@ -30,11 +30,9 @@ public char getLetter() {
     char letter = '0';
     
     do {
-        //System.out.println("Please enter a letter or enter 1 for the menu: ");
+        System.out.println("Please enter a letter or enter 1 for the menu: ");
         
-        // Added a tab escape and a math operator for the assignment. It will be deleted later. The original line is above this one.
-        System.out.println("\tPlease enter a letter or enter " + (100-99) + " for the menu: ");
-        
+               
         letter = letterScanner.next().charAt(0);
     } while (Character.isLetter(letter) == false && letter != '1');
     
