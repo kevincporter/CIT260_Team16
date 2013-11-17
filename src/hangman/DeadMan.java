@@ -6,8 +6,23 @@ package hangman;
 
 /**
  *
- * @author BlancoFamily
+ * @author Porter
  */
 public class DeadMan {
     
-}
+public class void DeadMan() {
+    String gallow = 
+           "____________\n"
+          +"|                   |\n"
+          +"|                   |\n"
+          +"|                   -- \n"
+          +"|                |      | \n "
+          +"|                   --\n"
+          +"|                   ||\n"
+          +"|             //   |    \\ \n"
+          +"|                    |   \n"
+          +"|                    |   \n"
+          +"|                   /\  \n"  
+          +"|               _/   \_   \n"
+     +"-----------\n";
+    }
