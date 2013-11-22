@@ -49,6 +49,21 @@ public class Gallow {
     
     public void displayWrongLetterBox(){
         System.out.println("ToDo: Display wrong letter box");
-    }    
+    }  
+        Triangle() {
+super();
+style="none";
+}
+    Triangle(String s, double w, doublt h) {
+        super(w, h);
+        
+        style = s;
+        
+    }
+    
+    Triangle(double x) {
+        super(x);
+        style="filled";
+    }
     
 }
